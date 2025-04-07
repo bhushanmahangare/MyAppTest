@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "123-456-7890",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "2",
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "phone": "987-654-3210",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "3",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "phone": "456-789-1234",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "4",
+        "name": "Bob Brown",
+        "email": "bob@example.com",
+        "phone": "321-654-9870",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "5",
+        "name": "Charlie White",
+        "email": "charlie@example.com",
+        "phone": "654-321-7890",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "6",
+        "name": "David Green",
+        "email": "david@example.com",
+        "phone": "789-123-4567",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "7",
+        "name": "Emma Black",
+        "email": "emma@example.com",
+        "phone": "234-567-8901",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "8",
+        "name": "Frank Blue",
+        "email": "frank@example.com",
+        "phone": "567-890-1234",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "9",
+        "name": "Grace Yellow",
+        "email": "grace@example.com",
+        "phone": "890-123-4567",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    },
+    {
+        "id": "10",
+        "name": "Hank Red",
+        "email": "hank@example.com",
+        "phone": "123-456-7899",
+        "avatar": "https://avatar.iran.liara.run/public/boy"
+    }
+]
