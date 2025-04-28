@@ -12,6 +12,10 @@ import SideDrawerScreen from '../screens/SideDrawer.screen';
 import TodoScreen from '../screens/Todo.screen';
 import UsersScreen from '../screens/Users/Users.screen';
 import {TScreenConfig} from './navigation.types';
+import Touchables from '../screens/ButtonExample/LongPressButtonExample';
+import ScrollViewWithAnimatedEventExample from '../screens/ScrollViewWithAnimatedEventExample/ScrollVieWithAnimatedEventExample';
+import PanResponderWithAnimatedEventExample from '../screens/PanResponderWithAnimatedEventExample/PanResponderWithAnimatedEventExample';
+import LayoutAnimations from '../screens/LayoutAnimations/LayoutAnimations';
 
 export const ScreenNames = {
   PRODUCT_LIST: 'ProductList',
@@ -29,6 +33,7 @@ export const ScreenNames = {
   SIDE_DRAWER: 'SIDE_DRAWER',
   CONTEXT_API_EXAMPLE: 'CONTEXT_API_EXAMPLE',
   COUNTER_APP_CONTEXT: 'COUNTER_APP_CONTEXT',
+  TOUCHABLES: 'TOUCHABLES',
 } as const;
 
 const _screens: TScreenConfig[] = [
@@ -85,6 +90,22 @@ const _screens: TScreenConfig[] = [
   {
     Component: MiscScreen,
     name: ScreenNames.MISC_SCREEN,
+  },
+  {
+    Component: Touchables,
+    name: ScreenNames.TOUCHABLES,
+  },
+  {
+    Component: ScrollViewWithAnimatedEventExample,
+    name: 'ScrollViewWithAnimatedEventExample',
+  },
+  {
+    Component: PanResponderWithAnimatedEventExample,
+    name: 'PanResponderWithAnimatedEventExample',
+  },
+  {
+    Component: LayoutAnimations,
+    name: 'LayoutAnimations',
   },
 ];
 
