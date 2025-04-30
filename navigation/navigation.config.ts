@@ -16,6 +16,8 @@ import Touchables from '../screens/ButtonExample/LongPressButtonExample';
 import ScrollViewWithAnimatedEventExample from '../screens/ScrollViewWithAnimatedEventExample/ScrollVieWithAnimatedEventExample';
 import PanResponderWithAnimatedEventExample from '../screens/PanResponderWithAnimatedEventExample/PanResponderWithAnimatedEventExample';
 import LayoutAnimations from '../screens/LayoutAnimations/LayoutAnimations';
+import { DeviceInfoExample } from '../screens/ReactNativeDeviceInfo/react-native-device-info';
+import { DocumentPickerViewer } from '../screens/DocumentPickerViewer/DocumentPickerViewer';
 
 export const ScreenNames = {
   PRODUCT_LIST: 'ProductList',
@@ -103,10 +105,19 @@ const _screens: TScreenConfig[] = [
     Component: PanResponderWithAnimatedEventExample,
     name: 'PanResponderWithAnimatedEventExample',
   },
+  // {
+  //   Component: LayoutAnimations,
+  //   name: 'LayoutAnimations',
+  // },
   {
-    Component: LayoutAnimations,
-    name: 'LayoutAnimations',
+    Component: DeviceInfoExample,
+    name: 'DeviceInfoExample',
   },
+  {
+    Component: DocumentPickerViewer,
+    name: 'DocumentPickerViewer',
+  },
+
 ];
 
 export const tabScreens = _screens.filter(screen => screen.isTabScreen);

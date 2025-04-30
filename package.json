@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "^11.4.1",
+    "@react-native-documents/picker": "^10.1.2",
+    "@react-native-documents/viewer": "^1.0.1",
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/drawer": "^7.3.9",
     "@react-navigation/elements": "^2.3.1",
@@ -19,6 +21,7 @@
     "react": "19.0.0",
     "react-native": "0.78.1",
     "react-native-contacts": "^8.0.4",
+    "react-native-device-info": "^14.0.4",
     "react-native-geolocation-service": "^5.3.1",
     "react-native-gesture-handler": "^2.25.0",
     "react-native-image-colors": "^2.4.0",
@@ -26,6 +29,7 @@
     "react-native-reanimated": "^3.17.4",
     "react-native-safe-area-context": "^5.3.0",
     "react-native-screens": "^4.10.0",
+    "react-native-toast-message": "^2.3.0",
     "react-native-vector-icons": "^10.2.0",
     "react-native-vision-camera": "^4.6.4"
   },
@@ -41,6 +45,7 @@
     "@react-native/metro-config": "0.78.2",
     "@react-native/typescript-config": "0.78.2",
     "@types/axios": "^0.9.36",
+    "@types/invariant": "^2.2.37",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-native-vector-icons": "^6.4.18",
