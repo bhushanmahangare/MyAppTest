@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, View } from 'react-native';
+import { Button, View, StyleSheet } from 'react-native';
 import { saveDocuments, pick, types, keepLocalCopy } from '@react-native-documents/picker';
 import invariant from 'invariant';
 import Toast from 'react-native-toast-message';
@@ -14,7 +14,7 @@ export const DocumentPickerViewer = () => {
     };
 
     return (
-        <View>
+        <View style={styles.container}>
             <Button
                 title="Save some text file to a user-defined location"
                 onPress={async () => {
@@ -108,3 +108,16 @@ export const DocumentPickerViewer = () => {
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 16,
+        backgroundColor: '#f9f9f9',
+    },
+    button: {
+        marginVertical: 8,
+    },
+});

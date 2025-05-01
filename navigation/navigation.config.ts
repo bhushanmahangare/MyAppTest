@@ -18,6 +18,7 @@ import PanResponderWithAnimatedEventExample from '../screens/PanResponderWithAni
 import LayoutAnimations from '../screens/LayoutAnimations/LayoutAnimations';
 import { DeviceInfoExample } from '../screens/ReactNativeDeviceInfo/react-native-device-info';
 import { DocumentPickerViewer } from '../screens/DocumentPickerViewer/DocumentPickerViewer';
+import { ReadFileAndDisplay } from '../screens/DocumentPickerViewer/ReadFileAndDisplay';
 
 export const ScreenNames = {
   PRODUCT_LIST: 'ProductList',
@@ -117,7 +118,10 @@ const _screens: TScreenConfig[] = [
     Component: DocumentPickerViewer,
     name: 'DocumentPickerViewer',
   },
-
+  {
+    Component: ReadFileAndDisplay,
+    name: 'ReadFileAndDisplay',
+  },
 ];
 
 export const tabScreens = _screens.filter(screen => screen.isTabScreen);
