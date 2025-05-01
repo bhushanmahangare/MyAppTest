@@ -16,7 +16,16 @@ export type RootStackParamList = {
   [ScreenNames.SIDE_DRAWER]: undefined;
   [ScreenNames.CONTEXT_API_EXAMPLE]: undefined;
   [ScreenNames.COUNTER_APP_CONTEXT]: undefined;
+  [ScreenNames.TOUCHABLES]: undefined;
+  [ScreenNames.HOME_TOP_NAVS]: undefined;
+  [ScreenNames.SCROLL_VIEW_WITH_ANIMATED_EVENT]: undefined;
+  [ScreenNames.PAN_RESPONDER_WITH_ANIMATED_EVENT]: undefined;
+  [ScreenNames.LAYOUT_ANIMATIONS]: undefined;
+  [ScreenNames.DEVICE_INFO_EXAMPLE]: undefined;
+  [ScreenNames.DOCUMENT_PICKER_VIEWER]: undefined;
+  [ScreenNames.READ_FILE_AND_DISPLAY]: {uri: string; name: string};
 };
+
 
 export type TScreenName = keyof RootStackParamList;
 

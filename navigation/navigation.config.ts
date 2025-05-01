@@ -37,6 +37,12 @@ export const ScreenNames = {
   CONTEXT_API_EXAMPLE: 'CONTEXT_API_EXAMPLE',
   COUNTER_APP_CONTEXT: 'COUNTER_APP_CONTEXT',
   TOUCHABLES: 'TOUCHABLES',
+  SCROLL_VIEW_WITH_ANIMATED_EVENT: 'ScrollViewWithAnimatedEventExample',
+  PAN_RESPONDER_WITH_ANIMATED_EVENT: 'PanResponderWithAnimatedEventExample',
+  LAYOUT_ANIMATIONS: 'LayoutAnimations',
+  DEVICE_INFO_EXAMPLE: 'DeviceInfoExample',
+  DOCUMENT_PICKER_VIEWER: 'DocumentPickerViewer',
+  READ_FILE_AND_DISPLAY: 'ReadFileAndDisplay',
 } as const;
 
 const _screens: TScreenConfig[] = [
@@ -100,27 +106,23 @@ const _screens: TScreenConfig[] = [
   },
   {
     Component: ScrollViewWithAnimatedEventExample,
-    name: 'ScrollViewWithAnimatedEventExample',
+    name: ScreenNames.SCROLL_VIEW_WITH_ANIMATED_EVENT,
   },
   {
     Component: PanResponderWithAnimatedEventExample,
-    name: 'PanResponderWithAnimatedEventExample',
+    name: ScreenNames.PAN_RESPONDER_WITH_ANIMATED_EVENT,
   },
-  // {
-  //   Component: LayoutAnimations,
-  //   name: 'LayoutAnimations',
-  // },
   {
     Component: DeviceInfoExample,
-    name: 'DeviceInfoExample',
+    name: ScreenNames.DEVICE_INFO_EXAMPLE,
   },
   {
     Component: DocumentPickerViewer,
-    name: 'DocumentPickerViewer',
+    name: ScreenNames.DOCUMENT_PICKER_VIEWER,
   },
   {
     Component: ReadFileAndDisplay,
-    name: 'ReadFileAndDisplay',
+    name: ScreenNames.READ_FILE_AND_DISPLAY,
   },
 ];
 
