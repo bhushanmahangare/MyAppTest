@@ -19,6 +19,10 @@ import LayoutAnimations from '../screens/LayoutAnimations/LayoutAnimations';
 import { DeviceInfoExample } from '../screens/ReactNativeDeviceInfo/react-native-device-info';
 import { DocumentPickerViewer } from '../screens/DocumentPickerViewer/DocumentPickerViewer';
 import { ReadFileAndDisplay } from '../screens/DocumentPickerViewer/ReadFileAndDisplay';
+import AsyncStorageExample from '../screens/Day_15_Async_Storage/1.async-storage-example';
+import AsyncStorageExample2 from '../screens/Day_15_Async_Storage/2.async-storage-example2';
+
+
 
 export const ScreenNames = {
   PRODUCT_LIST: 'ProductList',
@@ -43,6 +47,8 @@ export const ScreenNames = {
   DEVICE_INFO_EXAMPLE: 'DeviceInfoExample',
   DOCUMENT_PICKER_VIEWER: 'DocumentPickerViewer',
   READ_FILE_AND_DISPLAY: 'ReadFileAndDisplay',
+  ASYNC_STORAGE_EXAMPLE: 'AsyncStorageExample',
+  ASYNC_STORAGE_EXAMPLE2: 'AsyncStorageExample2',
 } as const;
 
 const _screens: TScreenConfig[] = [
@@ -123,6 +129,14 @@ const _screens: TScreenConfig[] = [
   {
     Component: ReadFileAndDisplay,
     name: ScreenNames.READ_FILE_AND_DISPLAY,
+  },
+  {
+    Component: AsyncStorageExample,
+    name: ScreenNames.ASYNC_STORAGE_EXAMPLE,
+  },
+  {
+    Component: AsyncStorageExample2,
+    name: ScreenNames.ASYNC_STORAGE_EXAMPLE2,
   },
 ];
 

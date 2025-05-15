@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "@react-native-community/netinfo": "^11.4.1",
     "@react-native-documents/picker": "^10.1.2",
     "@react-native-documents/viewer": "^1.0.1",
@@ -50,6 +51,7 @@
     "@types/invariant": "^2.2.37",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
+    "@types/react-native": "^0.72.8",
     "@types/react-native-vector-icons": "^6.4.18",
     "@types/react-test-renderer": "^19.0.0",
     "eslint": "^8.19.0",
