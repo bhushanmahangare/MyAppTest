@@ -40,7 +40,7 @@ function MyTopNav() {
                 }
               },
             }}
-            name={name}
+            name={name as string}
             component={Component}
           />
         );
@@ -67,7 +67,7 @@ function MyTabs() {
                 }
               },
             }}
-            name={name}
+            name={String(name)}
             component={Component}
           />
         );

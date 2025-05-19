@@ -21,6 +21,7 @@
     "axios": "^1.8.4",
     "react": "19.0.0",
     "react-native": "0.78.1",
+    "react-native-biometrics": "^3.0.1",
     "react-native-contacts": "^8.0.4",
     "react-native-device-info": "^14.0.4",
     "react-native-fs": "^2.20.0",

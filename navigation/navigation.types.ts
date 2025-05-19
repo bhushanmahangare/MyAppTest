@@ -26,6 +26,7 @@ export type RootStackParamList = {
   [ScreenNames.READ_FILE_AND_DISPLAY]: {uri: string; name: string};
   [ScreenNames.ASYNC_STORAGE_EXAMPLE]: undefined;
   [ScreenNames.ASYNC_STORAGE_EXAMPLE2]: undefined;
+  [ScreenNames.BIOMETRIC_AUTH_SCREEN]: undefined;
 };
 
 

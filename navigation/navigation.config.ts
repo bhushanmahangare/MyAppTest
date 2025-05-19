@@ -21,8 +21,7 @@ import { DocumentPickerViewer } from '../screens/DocumentPickerViewer/DocumentPi
 import { ReadFileAndDisplay } from '../screens/DocumentPickerViewer/ReadFileAndDisplay';
 import AsyncStorageExample from '../screens/Day_15_Async_Storage/1.async-storage-example';
 import AsyncStorageExample2 from '../screens/Day_15_Async_Storage/2.async-storage-example2';
-
-
+import BiometricAuthScreen from '../screens/BiometricAuthScreen/BiometricAuthScreen';
 
 export const ScreenNames = {
   PRODUCT_LIST: 'ProductList',
@@ -49,6 +48,7 @@ export const ScreenNames = {
   READ_FILE_AND_DISPLAY: 'ReadFileAndDisplay',
   ASYNC_STORAGE_EXAMPLE: 'AsyncStorageExample',
   ASYNC_STORAGE_EXAMPLE2: 'AsyncStorageExample2',
+  BIOMETRIC_AUTH_SCREEN: 'BiometricAuthScreen',
 } as const;
 
 const _screens: TScreenConfig[] = [
@@ -137,6 +137,10 @@ const _screens: TScreenConfig[] = [
   {
     Component: AsyncStorageExample2,
     name: ScreenNames.ASYNC_STORAGE_EXAMPLE2,
+  },
+  {
+    Component: BiometricAuthScreen,
+    name: ScreenNames.BIOMETRIC_AUTH_SCREEN,
   },
 ];
 
